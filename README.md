@@ -1,8 +1,7 @@
-# EstherBot built using the Smooch Bot example
+# AnirudhBOT built using the Smooch Bot example
 If you want a slightly more sophisticated setup and are comfortable using the console then go see the original here: https://github.com/smooch/smooch-bot-example 
 
 Or if you want to test out EstherBot live go say hi on your platform of choice:
-http://estherbot.com
 
 # Build Your Bot
 
@@ -39,23 +38,23 @@ Also, the initial script starts with "So you want to learn about Esther? ..." bu
 
 ##Add line breaks to your messages
 If you want your bot's responses to be broken into different bubbles you'll need to add \n.
-Here's an example: Hi there!\nI’m the personal bot of Esther, a Product Marketer from San Francisco.
+Here's an example: Hi there!\nI’m the personal bot of Anirudh, a Developer from Oklahoma City.
 
-Now that message will be broken into two bubbles. First, it'll say "Hi there!" then it'll say "I'm the personal bot of Esther, a Product Marketer from San Francisco."
+Now that message will be broken into two bubbles. First, it'll say "Hi there!" then it'll say "I'm the personal bot of Anirudh, a Developer from Oklahoma City."
 
 ##Add images to your messages
 Adding pictures is super easy. Make sure you upload the files to your img folder. Then click on the image and select Raw to get the link for your image.
 
 Here's an example of the syntax for adding an image: 
 
-    Hi there!\nI'm the personal bot of Esther, a Product Marketer from San Francisco.\n![esther](https://raw.githubusercontent.com/esthercrawford/EstherBot/master/img/esther.jpg)
+    Hi there!\nI'm the personal bot of Anirudh, a Developer from Oklahoma City.\
 
 ##Add buttons to your messages
 On Facebook Messenger these buttons are called "structured messages". It makes it easier for your user to follow the script. They don't even have to type the keywords - they just have to select a button. That means fewer user errors and less frustration.
 
 In the script.json file you'll notice this: 
 
-    %[Tweet Esther](http://bit.ly/estherbot-tweet)
+    %[Tweet Anirudh](http://bit.ly/anirudhbot-tweet)
 
 This is a smiple link button. When the user taps it, they will open the link in a new browser window.
 
@@ -70,13 +69,13 @@ The syntax is similar to a link button, but note the `postback:` prefix. The "Te
 - Postbacks: http://docs.smooch.io/#postbacks
 - Webhooks: http://docs.smooch.io/rest/#webhooks
 
-The good news is Estherbot is clever, and simplifies much of this! Estherbot [will automatically](https://github.com/esthercrawford/EstherBot/blob/master/heroku/index.js#L113) accept postback events and treat them as if they were a keyword sent by the user. For example, when a user taps a postback button such as `%[Tell her](postback:twitter)` Estherbot will react as if they had typed out the message `Tell her`.
+The good news is Estherbot is clever, and simplifies much of this! Estherbot [will automatically](https://github.com/esthercrawford/EstherBot/blob/master/heroku/index.js#L113) accept postback events and treat them as if they were a keyword sent by the user. For example, when a user taps a postback button such as `%[Tell him](postback:twitter)` Estherbot will react as if they had typed out the message `Tell him`.
 
 ##Bring it altogether
 Read the JSON below and you'll see there are line breaks, an image, and 3 buttons in this bot's response.   
 
     {
-        "BOT": "Hi there!\nI’m the personal bot of Esther, a Product Marketer from San Francisco.\n![esther](https://raw.githubusercontent.com/esthercrawford/smooch-bot-example/master/img/esther.jpg)\nWant to know more about bots or learn about Esther? %[I'm here for the bot](postback:here_for_the_bot) %[Learn about Esther](postback:learn_about_esther) %[One random fact!](postback:random_fact)"
+        "BOT": "Hi there!\nI’m the personal bot of Anirudh, a Developer from Oklahoma City.\n![esther](https://raw.githubusercontent.com/esthercrawford/smooch-bot-example/master/img/esther.jpg)\nWant to know more about bots or learn about Anirudh? %[I'm here for the bot](postback:here_for_the_bot) %[Learn about Anirudh](postback:learn_about_anirudh) %[One random fact!](postback:random_fact)"
     }
 
 ⚠️ **Note:** If you're not familiar with the JSON syntax you can always paste your script into http://jsonlint.com/ to make sure your syntax in order.
