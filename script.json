@@ -1,7 +1,7 @@
 {
     "BOT": "Hi there!\nI’m the personal bot of Anirudh Varanasi, a Developer from Oklahoma City.\n![anirudh]\nWant to know more about bots or learn about Anirudh? %[I'm here for the bot](postback:here_for_the_bot) %[Learn about Anirudh](postback:learn_about_Anirudh) %[One random fact!](postback:random_fact)",
     "HELLO": "Hey, I'm so glad you set AnirudhBot up! Do you want to tell Anirudh that you're talking to his bot? %[Tell her](postback:twitter)",
-    "TELL HER": "Let's tweet @ Anirudh so he knows you're setting a bot up. Here's a tweet that's ready to go: %[Tweet anirudhvaranasi](http://bit.ly/anirudhbot-tweet)",
+    "TELL HIM": "Let's tweet @ Anirudh so he knows you're setting a bot up. Here's a tweet that's ready to go: %[Tweet anirudhvaranasi](http://bit.ly/anirudhbot-tweet)",
     "I LOVE YOU": "Awh, shucks! I love you too!",
     "CONNECT ME": "",
     "DISCONNECT": "Roger that, AnirudhBot is back."
