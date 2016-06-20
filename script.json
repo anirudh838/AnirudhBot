@@ -1,7 +1,7 @@
 {
     "BOT": "Hi there!\nI’m the personal bot of Anirudh Varanasi, a Developer from Oklahoma City.\n![anirudh]\nWant to know more about bots or learn about Anirudh? %[I'm here for the bot](postback:here_for_the_bot) %[Learn about Anirudh](postback:learn_about_Anirudh) %[One random fact!](postback:random_fact)",
-    "HELLO": "Hey, This is a personal bot of Anirudh Varanasi. How are you doing? What are you looking for? Read about me(http://www.anirudhvaranasi.com/about/)",
-    "HI": "Hey, This is Anirudh Varanasi. How are you doing?",
+    "HELLO": "Hey, This is a personal bot of Anirudh Varanasi. What are you looking for? Read about me(http://www.anirudhvaranasi.com/about/)",
+    "HI": "Hey, This is Anirudh Varanasi. How are you doing? Read about me(http://www.anirudhvaranasi.com/about/)",
     "CONNECT ME": "",
     "DISCONNECT": "Roger that, AnirudhBot is back."
 }
